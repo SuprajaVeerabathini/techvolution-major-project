@@ -1,0 +1,158 @@
+body {
+    padding-top: 56px;
+}
+
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Custom styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #343a40; /* Dark gray background */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #ffffff; /* White text color */
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #17a2b8; /* Light blue text color on hover */
+}
+
+/* Home Section */
+#home {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 3.5rem;
+}
+
+#home p {
+    font-size: 1.25rem;
+}
+
+#about {
+  opacity: 0; /* Initially hide the section */
+  transform: translateY(100px); /* Move the section down initially */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Apply transition for opacity and transform */
+}
+
+#about.active {
+  opacity: 1; /* Show the section */
+  transform: translateY(0); /* Move the section to its original position */
+}
+
+/* Features Section */
+#features {
+    padding: 50px 0;
+}
+
+/* Add box shadow to cards */
+.card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Zoom effect and bigger box shadow on hover */
+.card:hover {
+    transform: scale(1.07);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* Events Section */
+#events {
+    padding: 50px 0;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #dee2e6; /* Light gray border bottom */
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 50px 0;
+}
+
+.carousel-item img {
+    border-radius: 10px;
+}
+
+
+/* Registration Section */
+#regg {
+    padding: 50px 0;
+}
+
+.form-group label {
+    font-weight: bold;
+    
+}
+
+.form-control {
+    margin-left: 30%;
+    border-radius: 20px;
+    width: 60ch;
+}
+
+label{
+    margin-left: 30%;
+}
+
+.invalid-feedback {
+    margin-left: 31%;
+}
+
+.btn-primary {
+    background-color: #17a2b8; /* Light blue button background */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.btn-primary:hover {
+    background-color: #138496; /* Slightly darker blue on hover */
+}
+
+/* Prizes Section */
+#prizes {
+    padding: 50px 0;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    padding: 20px 0;
+    background-color: #343a40; /* Dark gray background */
+}
+
+footer a {
+    color: #ffffff; /* White text color */
+}
+
+footer a:hover {
+    color: #17a2b8; /* Light blue text color on hover */
+}
